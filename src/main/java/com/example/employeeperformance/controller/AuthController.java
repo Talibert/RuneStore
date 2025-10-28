@@ -5,6 +5,7 @@ import com.example.employeeperformance.VOs.LoginResponseVO;
 import com.example.employeeperformance.VOs.RegisterVO;
 import com.example.employeeperformance.VOs.ResponseVO;
 import com.example.employeeperformance.entities.User;
+import com.example.employeeperformance.exceptions.invalid.InvalidUserException;
 import com.example.employeeperformance.services.security.AuthService;
 import com.example.employeeperformance.services.security.TokenService;
 import jakarta.validation.Valid;

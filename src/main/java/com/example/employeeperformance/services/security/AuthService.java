@@ -32,17 +32,9 @@ public class AuthService implements UserDetailsService {
      */
     @Override
     public UserDetails loadUserByUsername(String usernameOrEmail) {
-        Optional<User> userByNickName = userRepository.findByNickName(usernameOrEmail);
-
-        if(userByNickName.isPresent())
-            return userByNickName.get();
-
-        Optional<User> userByEmail = userRepository.findByEmail(usernameOrEmail);
-
-        if(userByEmail.isPresent())
-            return userByEmail.get();
-
-        throw new UserNotFoundException();
+        return userRepository.findByEmail(usernameOrEmail)
+                .or(() -> userRepository.findByNickName(usernameOrEmail))
+                .orElseThrow(() -> new UsernameNotFoundException("Usuário não encontrado"));
     }
 
     /**

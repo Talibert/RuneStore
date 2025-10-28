@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "itens")
-public class Item {
+public class Item extends AbstractEntity {
 
     String name;
 
