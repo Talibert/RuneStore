@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>employeeperformance</artifactId>
+	<artifactId>runestore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employeeperformance</name>
 	<description>Nesse projeto você poderá cadastrar funcionários e atribuir notas individuais, com base nos atributos de avaliação. O projeto fornecerá métodos para gerar resumos e classificações com base no período escolhido, além de fornecer um log com todos os registros de mudanças executadas. </description>

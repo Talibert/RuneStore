@@ -1,5 +1,5 @@
-20:58:11.362 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:58:11.483 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+20:58:11.362 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:58:11.483 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 20:58:11.730 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 20:58:11.763 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 27120 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 20:58:11.764 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -9,13 +9,13 @@ Using generated security password: b3efcf2c-fca8-43bb-aecf-f8eef4296061
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-20:58:14.453 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+20:58:14.453 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 20:58:14.779 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 20:58:14.779 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 20:58:14.781 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
 20:58:14.820 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.283 seconds (process running for 4.211)
-20:58:15.337 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:58:15.349 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+20:58:15.337 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:58:15.349 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 20:58:15.386 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 27120 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 20:58:15.386 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 20:58:15.647 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -24,7 +24,7 @@ Using generated security password: 3e0e45c5-7c61-4e76-8366-7d55eb23b259
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-20:58:15.647 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+20:58:15.647 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 20:58:15.655 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 20:58:15.655 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 20:58:15.656 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
@@ -33,7 +33,7 @@ This generated password is for development use only. Your security configuration
 20:58:15.749 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 20:58:16.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 20:58:16.193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-20:58:16.242 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+20:58:16.242 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 20:58:16.243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
 20:58:16.260 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 20:58:16.261 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -52,15 +52,15 @@ This generated password is for development use only. Your security configuration
 20:58:18.299 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 20:58:18.804 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 20:58:18.837 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - Started EmployeeperformanceApplicationTests in 3.126 seconds (process running for 8.227)
-20:58:19.392 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Guilherme no banco
-20:58:19.422 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
-20:58:19.422 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Malu no banco
-20:58:19.423 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
+20:58:19.392 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Guilherme no banco
+20:58:19.422 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
+20:58:19.422 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Malu no banco
+20:58:19.423 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
 20:58:19.438 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 20:58:19.440 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 20:58:19.442 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-21:16:55.018 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:16:55.134 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:16:55.018 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:16:55.134 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:16:55.421 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:16:55.450 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 7244 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:16:55.451 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -70,13 +70,13 @@ Using generated security password: 3b3300ce-ff8e-489c-a676-d13764c4e26f
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:16:58.064 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:16:58.064 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:16:58.342 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:16:58.343 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:16:58.344 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:16:58.381 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.181 seconds (process running for 4.118)
-21:16:58.861 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:16:58.874 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:16:58.861 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:16:58.874 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:16:58.919 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 7244 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:16:58.919 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:16:59.166 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -85,7 +85,7 @@ Using generated security password: 573fff31-1d64-4eaf-ba08-702a4a5b5926
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:16:59.167 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:16:59.167 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:16:59.176 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:16:59.176 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:16:59.176 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
@@ -94,7 +94,7 @@ This generated password is for development use only. Your security configuration
 21:16:59.265 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:16:59.748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:16:59.751 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:16:59.801 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:16:59.801 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:16:59.802 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 JDBC repository interfaces.
 21:16:59.818 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:16:59.820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -109,7 +109,7 @@ This generated password is for development use only. Your security configuration
 21:17:00.766 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 21:17:01.292 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 21:17:01.318 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-21:17:01.743 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+21:17:01.743 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 21:17:01.743 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 21:17:01.746 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:17:01.753 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
@@ -117,7 +117,7 @@ This generated password is for development use only. Your security configuration
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 21:17:01.800 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -217,7 +217,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -243,7 +243,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 98 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -260,7 +260,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 121 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -273,7 +273,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 135 common frames omitted
-Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:119)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:103)
@@ -289,7 +289,7 @@ Caused by: org.springframework.data.repository.query.QueryCreationException: Cou
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 145 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
@@ -328,8 +328,8 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101)
 	... 161 common frames omitted
-21:17:01.807 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.employeeperformance.EmployeeperformanceApplicationTests@8dcc25]
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@794c22cd testClass = com.example.employeeperformance.EmployeeperformanceApplicationTests, locations = [], classes = [com.example.employeeperformance.EmployeeperformanceApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@62e586a6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+21:17:01.807 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.runestore.RuneStoreApplicationTests@8dcc25]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@794c22cd testClass = com.example.runestore.RuneStoreApplicationTests, locations = [], classes = [com.example.runestore.RuneStoreApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@62e586a6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
@@ -404,7 +404,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -432,7 +432,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
 	... 73 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -458,7 +458,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 98 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -475,7 +475,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 121 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -488,7 +488,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 135 common frames omitted
-Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:119)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:103)
@@ -504,7 +504,7 @@ Caused by: org.springframework.data.repository.query.QueryCreationException: Cou
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 145 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
@@ -543,8 +543,8 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101)
 	... 161 common frames omitted
-21:19:30.594 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:19:30.719 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:19:30.594 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:19:30.719 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:19:30.990 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:19:31.026 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 15188 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:19:31.027 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -554,13 +554,13 @@ Using generated security password: aff61426-6cfe-44a9-8a92-7db24e361e0a
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:19:33.700 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:19:33.700 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:19:34.005 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:19:34.005 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:19:34.006 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:19:34.045 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.265 seconds (process running for 4.239)
-21:19:38.723 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:19:38.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:19:38.723 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:19:38.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:19:39.118 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:19:39.148 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 26488 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:19:39.149 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
@@ -570,13 +570,13 @@ Using generated security password: b1fed140-c176-4696-9fd4-5968aea10170
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:19:41.666 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:19:41.666 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:19:41.948 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:19:41.948 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:19:41.949 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:19:41.995 [main] INFO  c.e.e.controller.TesteUserController - Started TesteUserController in 3.075 seconds (process running for 4.078)
-21:24:32.926 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:24:33.043 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:24:32.926 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:24:33.043 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:24:33.295 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:24:33.326 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 29220 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:24:33.327 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -586,13 +586,13 @@ Using generated security password: ae2c93c0-352f-42c7-b8d3-3be4cf89e4a5
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:24:35.929 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:24:35.929 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:24:36.206 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:24:36.207 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:24:36.208 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:24:36.251 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.155 seconds (process running for 4.149)
-21:24:36.671 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:24:36.680 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:24:36.671 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:24:36.680 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:24:36.704 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 29220 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:24:36.704 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:24:36.933 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -601,7 +601,7 @@ Using generated security password: 995170f6-e400-421a-a7dc-127dd28faaf6
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:24:36.934 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:24:36.934 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:24:36.942 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:24:36.943 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:24:36.943 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
@@ -610,7 +610,7 @@ This generated password is for development use only. Your security configuration
 21:24:37.041 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:24:37.522 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:24:37.524 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:24:37.562 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:24:37.562 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:24:37.563 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
 21:24:37.576 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:24:37.578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -625,7 +625,7 @@ This generated password is for development use only. Your security configuration
 21:24:38.573 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 21:24:39.107 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 21:24:39.135 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-21:24:39.613 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+21:24:39.613 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 21:24:39.613 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 21:24:39.615 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:24:39.616 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
@@ -633,7 +633,7 @@ This generated password is for development use only. Your security configuration
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 21:24:39.644 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -733,7 +733,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -759,7 +759,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 98 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -776,7 +776,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 121 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -789,7 +789,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 135 common frames omitted
-Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:119)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:103)
@@ -805,7 +805,7 @@ Caused by: org.springframework.data.repository.query.QueryCreationException: Cou
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 145 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
@@ -844,8 +844,8 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101)
 	... 161 common frames omitted
-21:24:39.651 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.employeeperformance.EmployeeperformanceApplicationTests@2a0154f7]
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1467dcd0 testClass = com.example.employeeperformance.EmployeeperformanceApplicationTests, locations = [], classes = [com.example.employeeperformance.EmployeeperformanceApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@31940d6b, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+21:24:39.651 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.runestore.RuneStoreApplicationTests@2a0154f7]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1467dcd0 testClass = com.example.runestore.RuneStoreApplicationTests, locations = [], classes = [com.example.runestore.RuneStoreApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@31940d6b, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
@@ -920,7 +920,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataLoaderConfig': Unsatisfied dependency expressed through field 'passwordEncoder': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -948,7 +948,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
 	... 73 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'securityFilter': Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -974,7 +974,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 98 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilter': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
@@ -991,7 +991,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 121 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.employeeperformance.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.runestore.repositories.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -1004,7 +1004,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
 	... 135 common frames omitted
-Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); Reason: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:119)
 	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:103)
@@ -1020,7 +1020,7 @@ Caused by: org.springframework.data.repository.query.QueryCreationException: Cou
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 145 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.employeeperformance.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.runestore.repositories.UserRepository.findByLogin(java.lang.String); No property 'login' found for type 'User'
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
 	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
@@ -1059,8 +1059,8 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101)
 	... 161 common frames omitted
-21:27:20.298 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:27:20.420 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:27:20.298 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:27:20.420 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:27:20.670 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:27:20.700 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 20976 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:27:20.700 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -1070,13 +1070,13 @@ Using generated security password: 52c4b44f-b0f1-401a-bfdf-934cc9d0e89c
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:27:23.103 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:27:23.103 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:27:23.342 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:27:23.342 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:27:23.343 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:27:23.375 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 2.899 seconds (process running for 3.827)
-21:27:23.871 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:27:23.884 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:27:23.871 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:27:23.884 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:27:23.909 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 20976 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:27:23.909 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:27:24.142 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -1085,7 +1085,7 @@ Using generated security password: d4815c7f-58c2-4937-bafa-d66a0e82c181
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:27:24.143 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:27:24.143 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:27:24.152 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:27:24.152 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:27:24.153 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
@@ -1094,7 +1094,7 @@ This generated password is for development use only. Your security configuration
 21:27:24.238 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:27:24.693 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:27:24.696 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:27:24.749 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:27:24.749 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:27:24.750 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
 21:27:24.759 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:27:24.762 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -1113,15 +1113,15 @@ This generated password is for development use only. Your security configuration
 21:27:26.727 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 21:27:27.246 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 21:27:27.283 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - Started EmployeeperformanceApplicationTests in 3.081 seconds (process running for 7.734)
-21:27:27.768 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Guilherme no banco
-21:27:27.798 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
-21:27:27.798 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Malu no banco
-21:27:27.799 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
+21:27:27.768 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Guilherme no banco
+21:27:27.798 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
+21:27:27.798 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Malu no banco
+21:27:27.799 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
 21:27:27.815 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 21:27:27.818 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:27:27.820 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-21:27:44.018 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:27:44.153 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:27:44.018 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:27:44.153 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:27:44.440 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:27:44.477 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 19860 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:27:44.477 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -1131,13 +1131,13 @@ Using generated security password: 22ec6012-7905-4f7b-a947-3f13309e5d16
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:27:47.183 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:27:47.183 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:27:47.459 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:27:47.459 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:27:47.461 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
 21:27:47.514 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.287 seconds (process running for 4.6)
-21:27:53.963 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:27:54.102 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:27:53.963 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:27:54.102 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:27:54.384 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:27:54.421 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 31548 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:27:54.422 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
@@ -1147,13 +1147,13 @@ Using generated security password: efc97560-b3e7-4fd6-9080-465c3280ab4e
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:27:56.989 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:27:56.989 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:27:57.254 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:27:57.255 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:27:57.257 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
 21:27:57.326 [main] INFO  c.e.e.controller.TesteUserController - Started TesteUserController in 3.146 seconds (process running for 4.316)
-21:33:40.692 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:33:40.807 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:33:40.692 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:33:40.807 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:33:41.055 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:33:41.086 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 12624 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:33:41.086 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -1163,13 +1163,13 @@ Using generated security password: c4c5f4b7-4cbf-406b-a414-31c9b3322e25
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:33:43.553 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:33:43.553 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:33:43.773 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:33:43.773 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:33:43.774 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:33:43.809 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 2.948 seconds (process running for 3.863)
-21:33:44.288 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:33:44.301 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:33:44.288 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:33:44.301 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:33:44.325 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 12624 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:33:44.325 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:33:44.547 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -1178,7 +1178,7 @@ Using generated security password: b0c48cb6-d022-4545-8b47-898918705296
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:33:44.548 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:33:44.548 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:33:44.557 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:33:44.558 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:33:44.558 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
@@ -1187,7 +1187,7 @@ This generated password is for development use only. Your security configuration
 21:33:44.648 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:33:45.117 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:33:45.119 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:33:45.163 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:33:45.163 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:33:45.164 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
 21:33:45.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:33:45.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -1206,15 +1206,15 @@ This generated password is for development use only. Your security configuration
 21:33:47.091 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 21:33:47.577 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 21:33:47.610 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - Started EmployeeperformanceApplicationTests in 2.998 seconds (process running for 7.663)
-21:33:48.051 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Guilherme no banco
-21:33:48.082 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
-21:33:48.082 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Malu no banco
-21:33:48.083 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
+21:33:48.051 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Guilherme no banco
+21:33:48.082 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
+21:33:48.082 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Malu no banco
+21:33:48.083 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
 21:33:48.099 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 21:33:48.103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:33:48.106 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-21:53:18.725 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:53:18.841 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:53:18.725 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:53:18.841 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:53:19.094 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:53:19.125 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 31704 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:53:19.126 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -1224,13 +1224,13 @@ Using generated security password: 8dded09a-044d-47bb-8a38-c2fbb83dbb77
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:53:21.801 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:53:21.801 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:53:22.033 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:53:22.033 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:53:22.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
 21:53:22.079 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.184 seconds (process running for 4.081)
-21:53:22.534 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:53:22.545 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:53:22.534 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:53:22.545 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:53:22.575 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 31704 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:53:22.575 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:53:22.828 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -1239,7 +1239,7 @@ Using generated security password: fa62e337-6c78-4e2b-8fb6-9bf39a31712b
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:53:22.828 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:53:22.828 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:53:22.838 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:53:22.838 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:53:22.839 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
@@ -1248,7 +1248,7 @@ This generated password is for development use only. Your security configuration
 21:53:22.930 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:53:23.419 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:53:23.421 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:53:23.469 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:53:23.469 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:53:23.470 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
 21:53:23.485 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:53:23.487 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -1261,15 +1261,15 @@ This generated password is for development use only. Your security configuration
 21:53:24.525 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
 21:53:24.527 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
 21:53:24.546 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-21:53:24.729 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
-21:53:24.729 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+21:53:24.729 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+21:53:24.729 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
 21:53:24.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:53:24.757 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 21:53:24.767 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 21:53:24.786 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -1364,7 +1364,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.hibernate.AnnotationException: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+Caused by: org.hibernate.AnnotationException: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
 	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:279)
 	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:215)
 	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:160)
@@ -1384,8 +1384,8 @@ Caused by: org.hibernate.AnnotationException: Entity 'com.example.employeeperfor
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 93 common frames omitted
-21:53:24.798 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.employeeperformance.EmployeeperformanceApplicationTests@70eced1f]
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5b256ab5 testClass = com.example.employeeperformance.EmployeeperformanceApplicationTests, locations = [], classes = [com.example.employeeperformance.EmployeeperformanceApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@da11873, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+21:53:24.798 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.example.runestore.RuneStoreApplicationTests@70eced1f]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5b256ab5 testClass = com.example.runestore.RuneStoreApplicationTests, locations = [], classes = [com.example.runestore.RuneStoreApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ba302e0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2f6e28bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@da11873, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7e22550a, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6941827a, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@40c80397, org.springframework.boot.test.context.SpringBootTestAnnotation@8e9baffa], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
@@ -1460,7 +1460,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -1483,7 +1483,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
 	... 73 common frames omitted
-Caused by: org.hibernate.AnnotationException: Entity 'com.example.employeeperformance.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+Caused by: org.hibernate.AnnotationException: Entity 'com.example.runestore.entities.Item' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
 	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:279)
 	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:215)
 	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:160)
@@ -1503,8 +1503,8 @@ Caused by: org.hibernate.AnnotationException: Entity 'com.example.employeeperfor
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
 	... 93 common frames omitted
-21:54:09.876 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:54:09.999 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteAuthController
+21:54:09.876 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:54:09.999 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
 21:54:10.258 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
 21:54:10.290 [main] INFO  c.e.e.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 23396 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:54:10.290 [main] INFO  c.e.e.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
@@ -1514,13 +1514,13 @@ Using generated security password: ed1e6dc1-3369-43e2-a1d2-4cba18aebbcc
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:54:12.968 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:54:12.968 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:54:13.300 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:54:13.300 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:54:13.301 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
 21:54:13.342 [main] INFO  c.e.e.controller.TesteAuthController - Started TesteAuthController in 3.29 seconds (process running for 4.225)
-21:54:13.749 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.employeeperformance.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:54:13.761 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.employeeperformance.EmployeeperformanceApplication for test class com.example.employeeperformance.controller.TesteUserController
+21:54:13.749 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:54:13.761 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
 21:54:13.792 [main] INFO  c.e.e.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 23396 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
 21:54:13.792 [main] INFO  c.e.e.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
 21:54:14.039 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
@@ -1529,7 +1529,7 @@ Using generated security password: 8282ce77-59a2-4304-b0ab-26e13811815a
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-21:54:14.039 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.employeeperformance.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:54:14.039 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
 21:54:14.051 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
 21:54:14.051 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 21:54:14.052 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
@@ -1538,7 +1538,7 @@ This generated password is for development use only. Your security configuration
 21:54:14.138 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - The following 1 profile is active: "test"
 21:54:14.631 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:54:14.634 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-21:54:14.683 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.employeeperformance.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:54:14.683 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
 21:54:14.684 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 JDBC repository interfaces.
 21:54:14.702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
 21:54:14.704 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -1699,10 +1699,213 @@ create table itens (value numeric(38,2), id bigint generated by default as ident
 21:54:16.880 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 21:54:17.403 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 21:54:17.439 [main] INFO  c.e.e.EmployeeperformanceApplicationTests - Started EmployeeperformanceApplicationTests in 3.339 seconds (process running for 8.321)
-21:54:17.994 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Guilherme no banco
-21:54:18.023 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
-21:54:18.023 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuário Malu no banco
-21:54:18.024 [main] WARN  c.e.e.config.DataLoaderConfig - Usuário criado.
+21:54:17.994 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Guilherme no banco
+21:54:18.023 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
+21:54:18.023 [main] WARN  c.e.e.config.DataLoaderConfig - Criando usuï¿½rio Malu no banco
+21:54:18.024 [main] WARN  c.e.e.config.DataLoaderConfig - Usuï¿½rio criado.
 21:54:18.041 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 21:54:18.046 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 21:54:18.047 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:59:15.490 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteAuthController]: TesteAuthController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:59:15.608 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteAuthController
+21:59:15.868 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+21:59:15.897 [main] INFO  c.e.r.controller.TesteAuthController - Starting TesteAuthController using Java 17.0.11 with PID 28652 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
+21:59:15.897 [main] INFO  c.e.r.controller.TesteAuthController - No active profile set, falling back to 1 default profile: "default"
+21:59:18.529 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bb326cf2-6518-41f6-9ec0-9217621902f4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+21:59:18.536 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:59:18.766 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+21:59:18.766 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+21:59:18.767 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+21:59:18.802 [main] INFO  c.e.r.controller.TesteAuthController - Started TesteAuthController in 3.136 seconds (process running for 4.082)
+21:59:19.306 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.runestore.controller.TesteUserController]: TesteUserController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:59:19.316 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.runestore.RuneStoreApplication for test class com.example.runestore.controller.TesteUserController
+21:59:19.350 [main] INFO  c.e.r.controller.TesteUserController - Starting TesteUserController using Java 17.0.11 with PID 28652 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
+21:59:19.350 [main] INFO  c.e.r.controller.TesteUserController - No active profile set, falling back to 1 default profile: "default"
+21:59:19.582 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e3fe05e2-20cd-4a46-8106-9a20a5c41c0e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+21:59:19.583 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.example.runestore.services.security.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+21:59:19.592 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+21:59:19.592 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+21:59:19.592 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+21:59:19.597 [main] INFO  c.e.r.controller.TesteUserController - Started TesteUserController in 0.278 seconds (process running for 4.876)
+21:59:19.673 [main] INFO  c.e.r.RuneStoreApplicationTests - Starting RuneStoreApplicationTests using Java 17.0.11 with PID 28652 (started by Guilherme in C:\Users\Guilherme\Documents\Repositories\RuneStore)
+21:59:19.673 [main] INFO  c.e.r.RuneStoreApplicationTests - The following 1 profile is active: "test"
+21:59:20.121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+21:59:20.124 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+21:59:20.171 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.runestore.repositories.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+21:59:20.173 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+21:59:20.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+21:59:20.190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21:59:20.244 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+21:59:20.722 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:59:20.792 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+21:59:20.823 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+21:59:20.936 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+21:59:20.961 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:59:21.096 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+21:59:21.097 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:59:21.116 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+21:59:21.756 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21:59:21.782 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "create table itens (value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id))" via JDBC [Syntax error in SQL statement "create table itens ([*]value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id))"; expected "identifier";]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table itens (value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id))" via JDBC [Syntax error in SQL statement "create table itens ([*]value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id))"; expected "identifier";]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:428)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:344)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:239)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table itens ([*]value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table itens (value numeric(38,2), id bigint generated by default as identity, order_id bigint, name varchar(255), primary key (id)) [42001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5533)
+	at org.h2.command.Parser.parseTableColumnDefinition(Parser.java:8994)
+	at org.h2.command.Parser.parseCreateTable(Parser.java:8939)
+	at org.h2.command.Parser.parseCreate(Parser.java:6404)
+	at org.h2.command.Parser.parsePrepared(Parser.java:666)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 117 common frames omitted
+21:59:21.797 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+21:59:22.376 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name authService
+21:59:22.430 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21:59:22.979 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21:59:23.033 [main] INFO  c.e.r.RuneStoreApplicationTests - Started RuneStoreApplicationTests in 3.397 seconds (process running for 8.313)
+21:59:23.531 [main] WARN  c.e.r.config.DataLoaderConfig - Criando usuário Guilherme no banco
+21:59:23.559 [main] WARN  c.e.r.config.DataLoaderConfig - Usuário criado.
+21:59:23.560 [main] WARN  c.e.r.config.DataLoaderConfig - Criando usuário Malu no banco
+21:59:23.560 [main] WARN  c.e.r.config.DataLoaderConfig - Usuário criado.
+21:59:23.575 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+21:59:23.582 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:59:23.583 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
