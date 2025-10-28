@@ -1,0 +1,26 @@
+<configuration>
+
+    <!-- Define o formato do log -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/app.log</file>
+
+        <!-- Roda o log diariamente -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Nome do arquivo com data -->
+            <fileNamePattern>logs/app.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Quantos dias manter os logs -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <!-- Layout do log -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger (nível mínimo de log) -->
+    <root level="info">
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
